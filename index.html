@@ -8,7 +8,7 @@
 <script> 
 //https://www.highcharts.com/samples/data/aapl-c.json
 //https://api.blockchain.info/charts/transactions-per-second?timespan=5weeks&rollingAverage=8hours&format=json
-$.getJSON('https://www.highcharts.com/samples/data/aapl-c.json', function (data) {
+$.getJSON('https://api.blockchain.info/charts/transactions-per-second?timespan=5weeks&rollingAverage=8hours&format=json', function (data) {
     // Create the chart
     Highcharts.stockChart('container', {
 
