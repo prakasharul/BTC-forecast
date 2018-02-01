@@ -18,11 +18,11 @@ $.getJSON('https://www.highcharts.com/samples/data/aapl-c.json', function (data)
         },
 
         title: {
-            text: 'AAPL Stock Price'
+            text: 'BTC Price'
         },
 
         series: [{
-            name: 'AAPL',
+            name: 'BTC',
             data: data,
             crossDomain: true,
             type: 'GET',
@@ -31,6 +31,7 @@ $.getJSON('https://www.highcharts.com/samples/data/aapl-c.json', function (data)
             success: function() { alert("Success"); },
             error: function() { alert('Failed!'); },
             beforeSend: setHeader,
+            async:false,
             tooltip: {
                 valueDecimals: 2
             }
