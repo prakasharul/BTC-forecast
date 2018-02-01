@@ -25,6 +25,12 @@ $.getJSON('https://www.highcharts.com/samples/data/aapl-c.json', function (data)
             name: 'AAPL',
             data: data,
             crossDomain: true,
+            type: 'GET',
+            crossDomain: true,
+            dataType: 'jsonp',
+            success: function() { alert("Success"); },
+            error: function() { alert('Failed!'); },
+            beforeSend: setHeader,
             tooltip: {
                 valueDecimals: 2
             }
