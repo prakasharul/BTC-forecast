@@ -22,6 +22,7 @@
         $(document).ready(function(){
             $.get('https://api.blockchain.info/charts/transactions-per-second?timespan=5weeks&rollingAverage=8hours&format=json', function(data, status){
                 alert(data);
+                console.log(data);
             });       
         });
     </script>
