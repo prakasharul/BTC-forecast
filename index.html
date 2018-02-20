@@ -3,30 +3,31 @@
 
 <head>
     <title>BTC | Forecast</title>
+
+     <!-- chart script -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
-    <!-- chart script -->
-    <script src="https://code.highcharts.com/stock/highstock.js"></script>
-    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-
+   <!-- custom styles -->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- custom scripts -->
-    <script type="text/javascript" src="assets/js/chart.js"></script>
+    <script type = "text/javascript" src="assets/js/chart.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $.get('https://api.blockchain.info/charts/transactions-per-second?timespan=5weeks&rollingAverage=8hours&format=json', function(data, status){
-                alert(data);
-                console.log(data);
-            });       
-        });
+    $(document).ready(function() {
+        $.getJSON('https://api.blockchain.info/charts/market-price?format=json&cors=true', function(data, status) {
+            // alert(data);
+            console.log(data);
+        }); //https://api.blockchain.info/charts/market-price?format=json&cors=true
+    });
     </script>
-
 </head>
 
 <body>
