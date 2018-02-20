@@ -1,49 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>BTC</title>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-<script> 
-//https://www.highcharts.com/samples/data/aapl-c.json
-//https://api.blockchain.info/charts/transactions-per-second?timespan=5weeks&rollingAverage=8hours&format=json
-$.getJSON('https://api.blockchain.info/charts/transactions-per-second?timespan=5weeks&rollingAverage=8hours&format=json&api_code=07b92786-2838-4fbd-932c-49776ad571f3', function (data) {
-    // Create the chart
-    Highcharts.stockChart('container', {
+    <title>BTC | Forecast</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!-- chart script -->
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
 
+    <!-- custom scripts -->
+    <script type="text/javascript" src="assets/js/chart.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $.get('https://api.blockchain.info/charts/transactions-per-second?timespan=5weeks&rollingAverage=8hours&format=json', function(data, status){
+                alert(data);
+            });       
+        });
+    </script>
 
-        rangeSelector: {
-            selected: 1
-        },
-
-        title: {
-            text: 'BTC Price'
-        },
-
-        series: [{
-            name: 'BTC',
-            data: data,
-            crossDomain: true,
-            type: 'GET',
-            crossDomain: true,
-            dataType: 'jsonp',
-            success: function() { alert("Success"); },
-            error: function() { alert('Failed!'); },
-            beforeSend: setHeader,
-            async:false,
-            tooltip: {
-                valueDecimals: 2
-            }
-        }]
-    });
-});
-
- </script>
 </head>
-<body>
 
-<h1 style="text-align:center;font-family:verdana">BTC Live Chart</h1>
-<div id="container" style="height: 400px; min-width: 310px;border:1px solid grey"></div>
+<body>
+    <h1 style="text-align:center;font-family:verdana">BTC Live Chart</h1>
+    <div id="container" style="height: 400px; min-width: 310px;border:1px solid grey"></div>
 </body>
+
 </html>
