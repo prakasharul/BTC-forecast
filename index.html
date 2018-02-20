@@ -30,15 +30,14 @@
 </head>
 
 <body ng-app="codelife_btc">
-   
     <!-- menu section -->
     <nav class="navbar bg-white navbar-light fixed-top" style="margin-bottom:16px">
         <a class="navbar-brand" href="#">Codelife | Bitcoin</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#nav-new" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse" id="nav-new" >
-            <ul class="nav navbar-nav" >
+        <div class="navbar-collapse collapse" id="nav-new">
+            <ul class="nav navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0)">Analytics</a>
                 </li>
@@ -51,7 +50,7 @@
             </ul>
         </div>
     </nav>
-   <!-- content section -->
+    <!-- content section -->
     <div class="container-fluid" style="margin-top: 70px;">
         <div class="row">
             <!-- live graph -->
@@ -61,22 +60,47 @@
             <!-- recent news section -->
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="news-section">
-                    <div class="media">
-                        <div class="media-left">
-                            <img src="https://dummyimage.com/100x100/b8b8b8/000000.png" class="media-object" style="width:60px">
+                    <a href="#news_modal" data-toggle="modal" data-target="#news_modal">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="https://news.bitcoin.com/wp-content/uploads/2018/02/Bull-1068x1068.jpg" class="media-object" style="width:90px" class="img-fluid">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Crypto Index Delivers 45% </h4>
+                                <p>These days more players on Wall Street...</p>
+                            </div>
                         </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Bitcoin Berish</h4>
-                            <p>Lorem ipsum...</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- news modalsection -->
+    <!-- The Modal -->
+    <div class="modal fade" id="news_modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Crypto Index Fund Bitwise Delivers 45% Return in First Two Months</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img src="https://news.bitcoin.com/wp-content/uploads/2018/02/Bull-1068x1068.jpg" class="img-fluid align-content-center">
+                    <p><strong>These days more players on Wall Street are adopting bitcoin as a new vehicle that can potentially deliver amazing growth opportunities, and traditional investors are reaping the benefits. An index fund operated by Bitwise, for example, has delivered a 45% return in its first two months.</strong></p>
+                    <p>Bitwise Asset Management, which operates the cryptocurrency HOLD 10 Private Index Fund, has released today interesting statistics that show its performance since the launch of the fund late last fall. In its first two full months, the HOLD 10 delivered investors with a 45% return. In December’s bull market, bitcoin was up 39% compared with 78% for the HOLD 10, while January’s bear market saw BTC fall 27% compared with just 18% for the fund.</p>
+                    <p>Its CEO, Hunter Horsley, told news.Bitcoin.com: “The fund has accepted several hundred investors since our launch, ranging from doctors and professors and engineers to family offices and billionaires. Because of regulations on private funds, we’re currently only able to serve accredited investors with this vehicle (similar to many ICOs such as Blockstack and Filecoin). But our goal is to be able to serve anyone.” To be considered an accredited investor in the US, an individual must have a net worth of at least $1,000,000, excluding the value of their primary residence.</p>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- footer section -->
-   <!--  <div class="container-fluid">
+    <!--  <div class="container-fluid">
         <p class="text-center">@2018.Copy Rights Reserved. <a href="http://www.codelife.ml" target="_blank">codelife</a></p>
     </div> -->
 </body>

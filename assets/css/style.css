@@ -22,3 +22,8 @@
 .navbar-light .navbar-toggler{
 	border-color:transparent;
 }
+
+.modal-content{
+	border-radius: 0px !important;
+	border:none !important;
+}
