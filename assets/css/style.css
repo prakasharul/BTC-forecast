@@ -1,1 +1,14 @@
 /*custom styles*/
+
+/*chart*/
+.chart-section{
+	height: 400px;
+	min-width: 310px;
+	border:1px solid lightgrey;
+}
+
+
+/*news*/
+.news-section{
+	border:1px solid lightgrey;
+}

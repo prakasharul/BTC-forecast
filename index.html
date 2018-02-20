@@ -3,36 +3,44 @@
 
 <head>
     <title>BTC | Forecast</title>
-
-     <!-- chart script -->
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- chart script -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://code.highcharts.com/stock/highstock.js"></script>
     <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-   <!-- custom styles -->
-   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/charts.css">
     <!-- custom scripts -->
-    <script type = "text/javascript" src="assets/js/chart.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $.getJSON('https://api.blockchain.info/charts/market-price?format=json&cors=true', function(data, status) {
-            // alert(data);
-            console.log(data);
-        }); //https://api.blockchain.info/charts/market-price?format=json&cors=true
-    });
-    </script>
+    <script type="text/javascript" src="assets/js/chart.js"></script>
 </head>
 
 <body>
-    <h1 style="text-align:center;font-family:verdana">BTC Live Chart</h1>
-    <div id="container" style="height: 400px; min-width: 310px;border:1px solid grey"></div>
+    <!-- content section -->
+    <div class="clearfix">&nbsp;</div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- live graph -->
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                 <div id="container" class="chart-section"></div>
+            </div>
+            <!-- recent news section -->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 news-section">
+                
+            </div>
+        </div>
+
+        <!-- <h1 style="text-align:center;font-family:verdana"></h1> -->
+       
+    </div>
 </body>
 
 </html>

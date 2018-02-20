@@ -1,0 +1,123 @@
+#chart_header {
+    height: 100px;
+    margin-top: 130px;
+}
+
+#chart_title {
+    color: #5A5A5A;
+    font-size: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#chart_source {
+    color: #5A5A5A;
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.highcharts-container {
+  overflow: visible !important;
+}
+.highcharts-container > svg {
+  overflow: visible !important;
+}
+
+.page-navigation {
+  position: relative;
+  display: block;
+  z-index: 1;
+  width: 100%;
+}
+
+.page-navigation a {
+  transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  text-decoration: none !important;
+}
+
+.page-navigation a:hover {
+  color: #004A7C;
+  opacity: 1 !important;
+}
+
+.page-navigation.sticky {
+  left: 0;
+  position: fixed;
+  top: 90px;
+  z-index: 1;
+}
+
+.page-navigation.sticky a {
+  opacity: 0.7;
+}
+
+.page-navigation.sticky a.active {
+  opacity: 1;
+}
+
+.chart-desc {
+  min-height: 100px;
+}
+
+.chart-title {
+  display: block;
+  min-height: 50px;
+}
+
+@media (min-width: 992px) {
+  .popular {
+    min-height: 265px;
+    border-right: 1px solid #efefef;
+  }
+}
+.popular:last-of-type {
+  border-right: none;
+}
+
+@media (max-width: 991px) {
+  .popular {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #efefef;
+  }
+  .popular:last-of-type {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .charts-container h3 {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .charts-container {
+    background: white;
+    border-bottom: 1px solid #efefef;
+  }
+  .charts-container > div {
+    padding-bottom: 0px;
+    padding-top: 36px;
+    max-height: 85px;
+    overflow: hidden;
+  }
+  .charts-container > div.active {
+    max-height: none;
+  }
+  .charts-container h3 {
+    text-align: left;
+    font-size: 18px;
+  }
+  .charts-container > div h3 i {
+    width: 30px;
+  }
+  .charts-container > div.active h3 i {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+}
