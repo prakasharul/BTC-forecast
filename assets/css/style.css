@@ -3,7 +3,7 @@
 /*chart*/
 .chart-section{
 	height: 400px;
-	min-width: 310px;
+	min-width: 100px;
 	border:1px solid lightgrey;
 }
 
@@ -11,4 +11,14 @@
 /*news*/
 .news-section{
 	border:1px solid lightgrey;
+	padding: 5px;
+}
+
+.bg-white{
+	background-color: #fff !important:
+}
+
+/*custom navbar icon*/
+.navbar-light .navbar-toggler{
+	border-color:transparent;
 }

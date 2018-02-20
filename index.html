@@ -6,10 +6,15 @@
     <!-- meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Bicoin Forecast" title="BTc">
+    <meta keywords="BTC ">
     <!-- chart script -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://code.highcharts.com/stock/highstock.js"></script>
     <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <!-- angularjs  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Popper JS -->
@@ -21,26 +26,59 @@
     <link rel="stylesheet" type="text/css" href="assets/css/charts.css">
     <!-- custom scripts -->
     <script type="text/javascript" src="assets/js/chart.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </head>
 
-<body>
-    <!-- content section -->
-    <div class="clearfix">&nbsp;</div>
-    <div class="container-fluid">
+<body ng-app="codelife_btc">
+   
+    <!-- menu section -->
+    <nav class="navbar bg-white navbar-light fixed-top" style="margin-bottom:16px">
+        <a class="navbar-brand" href="#">Codelife | Bitcoin</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#nav-new" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="nav-new" >
+            <ul class="nav navbar-nav" >
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Analytics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">ForeCast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">About us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   <!-- content section -->
+    <div class="container-fluid" style="margin-top: 70px;">
         <div class="row">
             <!-- live graph -->
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                 <div id="container" class="chart-section"></div>
+                <div id="container" class="chart-section"></div>
             </div>
             <!-- recent news section -->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 news-section">
-                
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="news-section">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="https://dummyimage.com/100x100/b8b8b8/000000.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Bitcoin Berish</h4>
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- <h1 style="text-align:center;font-family:verdana"></h1> -->
-       
     </div>
+
+    <!-- footer section -->
+   <!--  <div class="container-fluid">
+        <p class="text-center">@2018.Copy Rights Reserved. <a href="http://www.codelife.ml" target="_blank">codelife</a></p>
+    </div> -->
 </body>
 
 </html>
