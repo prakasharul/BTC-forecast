@@ -49,13 +49,13 @@ $(document).ready(function() {
                                 lineWidth: 1
                             }
                         },
-                        threshold: null
+                        turboThreshold: 0
                     }
                 },
 
                 series: [{
                     type: 'area',
-                    name: 'USD to INR',
+                    name: 'Rupee',
                     data: data.values
                 }]
             });
