@@ -63,8 +63,21 @@
             </div>
             <!-- recent news section -->
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="news-section">
-                    <a href="#news_modal" data-toggle="modal" data-target="#news_modal">
+                <div  ng-controller="controller_news" class="news-section">
+                    <div ng-repeat="ns in news">
+                         <a href="#news_modal" data-toggle="modal" data-target="#news_modal">
+                        <div class="media">
+                            <div class="media-left">
+                                <img ng-src="{{ns.image}}" class="media-object" class="img-fluid media-img">
+                            </div>
+                            <div class="media-body">
+                                <p class="media-heading">{{ns.title}}</p>
+                                <p class="media-text"><small>{{ns.text | limitTo 15}}</small></p>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                   <!--  <a href="#news_modal" data-toggle="modal" data-target="#news_modal">
                         <div class="media">
                             <div class="media-left">
                                 <img src="https://fs.bitcoinmagazine.com/img/images/rockwell_arrest.width-800.jpg" class="media-object" class="img-fluid media-img">
@@ -122,7 +135,7 @@
                                 <p class="media-text"><small>TA cryptocurrency exchange in Japan reportedly experienced a temporary glitch  </small></p>
                             </div>
                         </div>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
