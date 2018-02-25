@@ -88,6 +88,10 @@
 	font-size: 16px;
 	text-align: left;
 }
+.news-section .modal-body{
+	max-height: 400px;
+	overflow: auto;
+}
 
 .news-section hr{
 	margin-top: .7rem;
