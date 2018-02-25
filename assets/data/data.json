@@ -1,53 +1,81 @@
 [
-{   
-    "id"   :"btc_00001",
+{
+    "id": "btc_00001",
     "title": "Austria Floats Ideas About Bitcoin Regulation",
-    "meta": [
-    {
-        "author": "prakash",
-        "timestamp": "Saturday, 24 February 2018 (IST)",
-        "source": "https://news.bitcoin.com/austria-wants-to-regulate-bitcoin-like-gold-and-derivatives/",
-    }],
-    "text": "Austria Finance Minister Hartwig Löger is urging both his country and the broader European Union to treat cryptocurrencies such as bitcoin in a regulatory fashion as they do now with regard to gold and derivatives. <br> His proposals would further empower the country’s Money Laundering Registration Office of the Federal Criminal Police Office in identifying holders of crypto, placing exchanges under the auspices of the FMA. Mr. Löger’s comments were not fixated solely on bitcoin, however, as he also addressed initial coin offerings (ICOs). All ICOs would be subject to registration requirements and would be required to offer something like a “digital prospectus.<br>The borderless aspects so befuddling regulators when it comes to bitcoin are to be considered this March with the advent of a Fintech Regulatory Council. Reports suggest it will be comprised of experts who “consider regulatory approaches and coordinate the positions of various institutions” in an effort to reconcile wider “European initiatives…with national policies.<br>Experts expect Mr. Löger’s will bring his case to Portugal’s Mario Centeno when the two meet as part of Eurogroup this weekend. EU Commission meetings on Monday will consider cryptocurrencies in relation to the European Money Laundering Directive",
+
+    "author": "prakash",
+    "timestamp": "Saturday, 24 February 2018 (IST)",
+    "source": "https://news.bitcoin.com/austria-wants-to-regulate-bitcoin-like-gold-and-derivatives/",
+
+    "text": "Austria Finance Minister Hartwig Löger is urging both his country and the broader European Union to treat cryptocurrencies such as bitcoin in a regulatory fashion as they do now with regard to gold and derivatives.  His proposals would further empower the country’s Money Laundering Registration Office of the Federal Criminal Police Office in identifying holders of crypto, placing exchanges under the auspices of the FMA. Mr. Löger’s comments were not fixated solely on bitcoin, however, as he also addressed initial coin offerings (ICOs). All ICOs would be subject to registration requirements and would be required to offer something like a “digital prospectus.",
     "image": "https://news.bitcoin.com/wp-content/uploads/2018/02/dt.common.streams.StreamServer-300x181.jpg"
 
 },
-{   
-    "id"   :"btc_00002",
+{
+    "id": "btc_00002",
     "title": "Finance Ministry Employees Caught Mining Cryptos in Kazakhstan",
-    "meta": [
-    {
-        "author": "prakash",
-        "timestamp": "Saturday, 24 February 2018 (IST)",
-        "source": "https://news.bitcoin.com/austria-wants-to-regulate-bitcoin-like-gold-and-derivatives/",
-    }],
-    "text": "The Ministry of Finance in Kazakhstan has announced measures to improve security and oversight in its IT department after catching four employees mining cryptocurrencies on its servers. Joking that the miners have taken over the central bank’s main duty – money emission, a deputy called for crypto regulations. The National Bank is actually working on proposals to regulate the crypto sector. <br>IT specialists working for the Finance Ministry in four different regions of Kazakhstan have been implicated in using government hardware to mine cryptocurrencies. They were employed by local offices of the ministry’s Department of State Revenue, investigators said, quoted by Tengrinews. The miners have been exploiting the servers of the tax authority and the most powerful personal computers available to employees.<br>They have secretly installed mining software, which significantly decreased the speed of information processing and slowed down government computers”, Kazakhstan’s National Security Committee (KNB) said in a press release. “These programs have been added to the exceptions lists of antivirus applications”, the agency explained.<br>The employees have been charged with “impeding the work of information systems and telecommunications networks” and “creation, use or distribution of malicious computer programs and software products”. It is quite obvious that the current articles of the penal code do not specifically cover crypto-related crime.",
+
+    "author": "prakash",
+    "timestamp": "Saturday, 24 February 2018 (IST)",
+    "source": "https://news.bitcoin.com/austria-wants-to-regulate-bitcoin-like-gold-and-derivatives/",
+
+    "text": "The Ministry of Finance in Kazakhstan has announced measures to improve security and oversight in its IT department after catching four employees mining cryptocurrencies on its servers. Joking that the miners have taken over the central bank’s main duty – money emission, a deputy called for crypto regulations. The National Bank is actually working on proposals to regulate the crypto sector. IT specialists working for the Finance Ministry in four different regions of Kazakhstan have been implicated in using government hardware to mine cryptocurrencies. They were employed by local offices of the ministry’s Department of State Revenue, investigators said, quoted by Tengrinews. The miners have been exploiting the servers of the tax authority and the most powerful personal computers available to employees.",
     "image": "https://news.bitcoin.com/wp-content/uploads/2018/02/shutterstock_361144055_1000-300x200.jpg"
 
 },
 {
-    "id"   :"btc_00003",
+    "id": "btc_00003",
     "title": "Turkish Minister Proposes National Cryptocurrency",
-    "meta": [
-    {
-        "author": "prakash",
-        "timestamp": "Saturday, 24 February 2018 (IST)",
-        "source": "https://news.bitcoin.com/turkish-minister-proposes-national-cryptocurrency/",
-    }],
+
+    "author": "prakash",
+    "timestamp": "Saturday, 24 February 2018 (IST)",
+    "source": "https://news.bitcoin.com/turkish-minister-proposes-national-cryptocurrency/",
+
     "text": "The deputy chair of Turkey’s Nationalist Movement Party (MHP), Ahmet Kenan Tanrikulu, has written a 22-page report seeking to highlight the regulatory vacuum that presently exists in Turkey pertaining to cryptocurrencies. The report also makes a number of policy recommendations for the development of a regulatory framework for virtual currencies, including advocating that Turkey develop a national cryptocurrency<br>The MHP deputy chair and former Industry Minister, Mr. Tanrikulu, has written a detailed report seeking to encourage Turkish lawmakers to develop a regulatory apparatus for cryptocurrencies<br>In recent history, the Turkish government has struck a dismissive regarding cryptocurrencies, describing such as akin to a Ponzi scheme and warning prospective investors against seeking exposure to the virtual currency markets. Mr. Tanrikulu is concerned that Turkey is failing to embrace the revolutionary technology, telling media outlet Al-Monitor that “The world is advancing toward a new digital system. Turkey should create its own digital system and currency before it’s too late.",
     "image": "https://news.bitcoin.com/wp-content/uploads/2018/02/shutterstock_1010503423-300x200.jpg"
 
 },
-{   
-    "id"   :"btc_00004",
+{
+    "id": "btc_00004",
     "title": "Mexico’s Regulations for Crypto Exchanges Expected in ‘Weeks’",
-    "meta": [
-    {
-        "author": "prakash",
-        "timestamp": "Saturday, 24 February 2018 (IST)",
-        "source": "https://news.bitcoin.com/sneak-peek-mexicos-regulations-crypto-exchanges/",
-    }],
-    "text": "Mexico’s bill to regulate fintech institutions including cryptocurrency exchanges is expected to become law within “weeks,” according to local crypto exchange ISBIT. Daniel Luévano, the exchange’s director of operations, shared with news.Bitcoin.com what to expect from the new law, citing a leaked document he obtained from the recent meeting of regulators.<br>The bill “establishes a regulatory framework that regulates the platforms (called Financial Technology Institutions or ITFs)” which includes crypto exchanges, the document states. “The bill recognizes two types of ITFs: collective financing institutions and electronic payment fund institutions.”",
-    "image": "https://news.bitcoin.com/wp-content/uploads/2018/02/isbit-exchange-300x152.png"
 
-}, ]
+    "author": "prakash",
+    "timestamp": "Saturday, 24 February 2018 (IST)",
+    "source": "https://news.bitcoin.com/sneak-peek-mexicos-regulations-crypto-exchanges/",
+
+    "text": "Mexico’s bill to regulate fintech institutions including cryptocurrency exchanges is expected to become law within “weeks,” according to local crypto exchange ISBIT. Daniel Luévano, the exchange’s director of operations, shar,ed with news.Bitcoin.com what to expect from the new law, citing a leaked document he obtained from the recent meeting of regulators.<br>The bill “establishes a regulatory framework that regulates the platforms (called Financial Technology Institutions or ITFs)” which includes crypto exchanges, the document states. “The bill recognizes two types of ITFs: collective financing institutions and electronic payment fund institutions.”",
+    "image": "https://news.bitcoin.com/wp-content/uploads/2018/02/isbit-exchange-300x152.png"
+},
+{
+    "id": "btc_00005",
+    "title": "Privacy Is the Virtue That Sparked the American Revolution",
+
+    "author": "prakash",
+    "timestamp": "Sunday, 25 February 2018 (IST)",
+    "source": "https://news.bitcoin.com/wendy-mcelroy-privacy-is-the-virtue-that-sparked-the-american-revolution/",
+
+    "text": "Privacy is the revolutionary virtue that caused American colonists to slam the door in the face of British officials, both literally and figuratively. The Third Amendment of the U.S. Constitution prohibits the then-widespread practice of quartering soldiers in private homes, even during peace time, without the consent of owners. The Amendment sounds antiquated to modern ears. But correction of this travesty’s violation of privacy and property was important enough for revolutionaries to rank third in the list of liberties declared by the Bill of Rights. It follows the First Amendment (freedom of speech and religion) and the Second Amendment (the right to bear arms.<br>",
+    "image": "https://news.bitcoin.com/wp-content/uploads/2018/02/HS-533x261.jpg"
+},
+{
+    "id": "btc_00006",
+    "title": "Vladivostok Discussed as Russia’s New ”Crypto Hub”",
+
+    "author": "prakash",
+    "timestamp": "Sunday, 25 February 2018 (IST)",
+    "source": "https://news.bitcoin.com/vladivostok-discussed-as-russias-new-crypto-hub/",
+
+    "text": "The Fund for Development of the Far East has proposed the creation of a crypto valley, centered on the Russian city of Vladivostok, its general director Alexei Chekunov told RNS. The FDFE, along with the digital platform “Voshod” [sunrise], are currently discussing the idea with representatives of the Central Bank of Russia and government officials. The necessary regulatory framework and the risks associated with the project are under examination, as well.<br>Chekunov called the experiment a “Russian Crypto Valley” and described it as a “test site for technical and regulatory approaches”. This week a local representative of the Russian Association of Cryptocurrencies and Blockchain told lawmakers in the Duma that Crimea’s jurisdiction can also be used to test the crypto “phenomenon”. A couple of days ago the head of the Russian republic of Udmurtia urged deputies to quickly adopt regulations and offered its territory for pilot projects. Other regions want to set up large mining facilities.",
+    "image": "https://news.bitcoin.com/wp-content/uploads/2018/02/shutterstock_677490325-300x200.jpg"
+},
+{
+    "id": "btc_00007",
+    "title": "French Manufacturer Archos Launches Cryptocurrency Hardware Wallet”",
+
+    "author": "prakash",
+    "timestamp": "Sunday, 25 February 2018 (IST)",
+    "source": "https://news.bitcoin.com/french-manufacturer-archos-launches-cryptocurrency-hardware-wallet/",
+
+    "text": "Cryptocurrency users are blessed with an increasing choice of hardware wallets. Ledger and Trezor, the two dominant players in the space, are facing competition from a number of new entrants. Ledger will soon be joined by a fellow French manufacturer in the form of Archos, a company best known for its audio accessories. Its Safe-T mini wallet will retail for $62.<br>Manufacturing consumer electronics is a cutthroat business. Competition is fierce, margins are slim, and product life cycles can be short. Last year’s must-have accessory is this year’s bargain bucket; just ask Snap how their video recording Spectacles are doing. Archos is a French company that’s been developing electronics for years, with a focus on portable media players. It also creates products ranging from drones to scooters and even has a range of smartphones. The Safe-T mini will be its first foray into the world of cryptocurrency.",
+    "image": "https://news.bitcoin.com/wp-content/uploads/2018/02/archos-wallet-533x261.jpeg"
+}]
