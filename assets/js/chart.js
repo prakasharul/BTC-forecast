@@ -1,7 +1,8 @@
 $(document).ready(function() {
-
+//
+    //https://www.coingecko.com/price_charts/1/usd/24_hours.json&cors=true
     $.getJSON(
-        'https://www.coingecko.com/price_charts/1/usd/24_hours.json&cors=true',
+        'https://blockchain.info/charts/market-price?daysAverageString=7&format=json&cors=true',
         function(data) {
             console.log(data);
             Highcharts.chart('container', {
