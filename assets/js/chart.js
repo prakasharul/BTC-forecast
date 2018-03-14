@@ -76,7 +76,7 @@ $(document).ready(function() {
                 series: [{
                     type: 'area',
                     name: 'Rupee',
-                    data: data.stats
+                    data: data.values
                 }]
             });
         }
